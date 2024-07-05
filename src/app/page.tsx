@@ -8,6 +8,7 @@ export default async function Home() {
 
   const hello = await serverClient.allTodos();
 
+
   return (
     <div className="flex items-center pt-4 flex-col">
       <AddTodo />

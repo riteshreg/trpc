@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.4.1",
     "@tanstack/react-query": "^5.49.2",
     "@trpc/client": "11.0.0-rc.439",
     "@trpc/react-query": "11.0.0-rc.439",
     "@trpc/server": "11.0.0-rc.439",
     "better-sqlite3": "^11.1.2",
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.31.2",
     "next": "14.2.4",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
     "zod": "^3.23.8"

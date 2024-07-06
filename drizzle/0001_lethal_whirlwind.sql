@@ -1,1 +1,0 @@
-ALTER TABLE `todos` ADD `done` integer DEFAULT 0 NOT NULL;
